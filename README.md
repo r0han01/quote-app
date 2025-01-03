@@ -80,7 +80,9 @@ docker run -d -p 3000:3000 quote-app
 ```
 - Once the Docker container is running, visit `http://localhost:3000` in your browser.
 ###
+`
 ![Screenshot from 2025-01-03 11-06-53](https://github.com/user-attachments/assets/a5fda853-bb4a-4c16-bb02-98b8b2019810)
+`
 
 ### Technologies Used
 - `Node.js` (v18)
