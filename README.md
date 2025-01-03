@@ -80,9 +80,9 @@ docker run -d -p 3000:3000 quote-app
 ```
 - Once the Docker container is running, visit `http://localhost:3000` in your browser.
 ###
-`
+
 ![Screenshot from 2025-01-03 11-06-53](https://github.com/user-attachments/assets/a5fda853-bb4a-4c16-bb02-98b8b2019810)
-`
+
 
 ### Technologies Used
 - `Node.js` (v18)
@@ -110,3 +110,30 @@ getRandomQuote().then(quote => {
 });
 ```
 - This modular approach improves code readability and maintainability by separating the quote-fetching logic into a standalone function, making it reusable and easily modifiable.
+
+### Access this Application using Docker 
+## How to Use
+
+You can easily pull the Docker image and run it with the following commands:
+
+### 1. **Pull the Docker image:**
+
+- To pull the latest version of the image from Docker Hub, run:
+
+```bash
+docker pull r0han01/quote-app:latest
+```
+### 2. Run the Docker container:
+- After pulling the image, run the container using the following command:
+
+```bash
+docker run -d -p 3000:3000 r0han01/quote-app:latest
+```
+- This will run the app in the background and map port 3000 of the container to port 3000 on your local machine.
+
+### 3. Access the app:
+- Once the container is running, you can access the app by navigating to:
+
+```arduino
+http://localhost:3000
+```
