@@ -1,4 +1,4 @@
-# Quote App
+# QuoteApp: Dynamic Motivational Quotes with Custom NodeJS Module
 
 A **Dockerized Express application** that fetches and displays **random motivational quotes**. This app pulls quotes from a CSV file hosted on GitHub and serves them dynamically to users through an Express API.
 ###
