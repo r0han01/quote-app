@@ -2,6 +2,8 @@
 
 A **Dockerized Express application** that fetches and displays **random motivational quotes**. This app pulls quotes from a CSV file hosted on GitHub and serves them dynamically to users through an Express API.
 
+![21](https://github.com/user-attachments/assets/f7c2023c-9879-4371-8432-e6a0ac09a671)
+
 ---
 
 ## Table of Contents
