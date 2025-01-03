@@ -1,7 +1,7 @@
 # Quote App
 
 A **Dockerized Express application** that fetches and displays **random motivational quotes**. This app pulls quotes from a CSV file hosted on GitHub and serves them dynamically to users through an Express API.
-
+###
 ![21](https://github.com/user-attachments/assets/f7c2023c-9879-4371-8432-e6a0ac09a671)
 
 ---
@@ -47,7 +47,7 @@ To run this application locally or within a Docker container, follow these steps
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/quote-app.git
+git clone git@github.com:r0han01/quote-app.git
 cd quote-app
 ```
 #### Install Dependencies
@@ -79,6 +79,8 @@ docker build -t quote-app .
 docker run -d -p 3000:3000 quote-app
 ```
 - Once the Docker container is running, visit `http://localhost:3000` in your browser.
+###
+![Screenshot from 2025-01-03 11-06-53](https://github.com/user-attachments/assets/a5fda853-bb4a-4c16-bb02-98b8b2019810)
 
 ### Technologies Used
 - `Node.js` (v18)
@@ -88,7 +90,8 @@ docker run -d -p 3000:3000 quote-app
 - `PapaParse` – For parsing the CSV file and extracting the quote data
 - `HTML/CSS` – For the frontend to display the quotes
 Acknowledgments
-- `Quote Source`: The quotes used in this app are sourced from a public GitHub repository by JakubPetriska, who has made these motivational quotes available via a CSV file. You can find the original CSV here.
+- `Quote Source`: The quotes used in this app are sourced from a public GitHub repository by `JakubPetriska`, who has made these motivational quotes available via a CSV file. You can find the original CSV here.
+![1472](https://github.com/user-attachments/assets/153d958c-bfbf-49f8-8c5f-4f6bce95175f)
 
 ### Why this URL is important:
 - By using the CSV file hosted on GitHub, we can dynamically fetch new quotes every time the app is restarted. This ensures that the app doesn't require hardcoded quotes, allowing for easy updates or additions to the list without modifying the application code.
